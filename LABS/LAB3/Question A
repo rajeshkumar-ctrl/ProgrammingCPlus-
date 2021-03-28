@@ -1,1 +1,8 @@
 
+Leonard is intimidated by Penny's lovers. The taller a guy is, the more intimidated he feels. You know the height of Penny's lovers in centimeters. Can you tell which guy caused the greatest intimidation for Leonard?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of lovers. The second line contains n integers h1,h2,…,hn (100≤di≤250) – the height of each lover.
+
+Output
+Your program should print the index of the tallest lover. The indexing starts at 1, so if the first number is the greatest, you should output 1, if the second, output 2, and so on. If there are multiple tallest guys, print the first one of them.
