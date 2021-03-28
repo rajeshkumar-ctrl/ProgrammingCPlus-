@@ -1,0 +1,7 @@
+Morty is deeply in love with Jessica. There are n parallel universes where Jessica replies differently to Morty's question "Will you marry me?". Morty is looking for the first one of them, when Jessica's answer contains "yes", even if it is part of some other word (e.g. "eyeshine"). Can you help him find this universe?
+
+Input
+The first line contains n (1≤n≤100) – the number of universes. Each of the following n lines contains an answer of Jessica in a universe. For simplicity, these texts are given without spaces. So in each line, there is a single string of lowercase letters of the English alphabet ('a' ... 'z') with a maximum length of 100 characters.
+
+Output
+Your program should the number of the first line containing "yes" as substring. The numbering of lines starts at 1. If "yes" doesn't occur in any line, print 0.

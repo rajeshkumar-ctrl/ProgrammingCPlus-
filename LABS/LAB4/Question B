@@ -1,0 +1,8 @@
+outputstandard output
+Morty is often terrified during his adventures with Rick. In fact, it is a rare event when Morty's fear level decreases during an adventure (it can happen when they escape from a monster and he doesn't see yet the bigger danger coming). In this task, you are given the fear levels of Morty, as integers, for every minute of their adventure. Can you determine if there was a point when Morty's fear decreased? If yes, which minute was it?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of minutes. The second line contains n integers f1,f2,…,fn (0≤fi≤10000) – the fear level of Morty in each minute.
+
+Output
+Your program should print a single number, the index of a minute when Morty's fear level was less than the level at the previous minute. If there are multiple such occasions, print the earliest one. Indexing of minutes starts at 1. If Morty's fear level never decreased during the adventure, print 0.

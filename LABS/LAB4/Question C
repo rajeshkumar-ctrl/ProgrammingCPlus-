@@ -1,0 +1,7 @@
+Rick is looking for equidistant kalaxian crystals. The kalaxian crystals are placed on a line and Rick knows the distance of each crystal from his starting point in meters. He needs three consecutive ones where the distance between the first two is the same as the distance between the second two. He calls them an equidistant trio. For example, if the crystals are located at 2, 3, 6, 8, 10, 11 meters from the start, then the ones at 6, 8, 10 form an equidistant trio. Can you help him find such crystals?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of crystals. The second line contains n integers in increasing order d1<d2<…<dn (0≤di≤1000) – the distance of the crystals from the starting point.
+
+Output
+Your program should print a single number, the index of the middle crystal of an equidistant trio. If there are multiple such trios, choose the first one. Indexing of crystals starts at 1. If there is no equidistant trio, print 0.

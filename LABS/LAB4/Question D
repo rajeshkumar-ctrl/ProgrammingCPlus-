@@ -1,0 +1,7 @@
+erry doesn't like his son Morty going on adventures with Rick. So he is freaking out when he hears "adventure", in fact, he already gets angry at hearing the first 3 letters "adv". Given a text that Jerry hears, can you determine whether he gets angry?
+
+Input
+For simplicity, the text is given in the input without spaces. So you are given a single string of lowercase letters of the English alphabet ('a' ... 'z'). The length of the string is at most 100.
+
+Output
+Your program should print "yes" or "no" depending on whether the substring "adv" occurs in the input string
