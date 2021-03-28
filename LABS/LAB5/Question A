@@ -1,0 +1,7 @@
+There are n cities on the path of Queen Daenerys, the Mother of Dragons, and Breaker of Chains. She decides to attack a city if there are at least 1000 slaves whom she will free up. You are given the number of slaves in each city, can you tell how many and which cities will be attacked?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of cities. The second line contains n integers s1,s2,…,sn (0≤si≤100000) – the number of slaves in each city.
+
+Output
+The first line should contain a single integer k - how many cities Daenerys will attack. Then print k numbers in increasing order separated by spaces, which are the indices of the attacked cities in the sequence. The indexing starts with 1. (Notice that k might be 0, then leave the second line empty.)
