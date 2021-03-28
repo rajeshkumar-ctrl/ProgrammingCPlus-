@@ -1,0 +1,7 @@
+Beth works at an animal hospital. On an average day, she checks the horses which are awaiting heart surgery and selects the first one with super low blood pressure, that is, below 100. Given all the horses' blood pressure can you tell which one she will choose for surgery?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of horses. The second line contains n integers p1,p2,…,pn (0≤pi≤500) – the blood pressure of each horse.
+
+Output
+Your program should print the index of the selected horse, which is the first one that has a blood pressure smaller than 100. The indexing starts at 1. If none of the horses have such low blood pressure, print 0.
