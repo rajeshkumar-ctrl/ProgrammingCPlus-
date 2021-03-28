@@ -1,0 +1,9 @@
+Tyrion loves wine and women. But too much wine can ruin his night... unless there are many women around him! He considers a night wonderful, if the wine/women ratio is at most 2, meaning that he has maximum two glasses of wine per each woman with him. For example a night with 5 glasses of wine and 2 women is not wonderful (5/2=2.5 and 2.5>2), while a night with 2 glasses of wine and 3 women is wonderful (2/3= 0.667 and 0.667≤2).
+
+You are given Tyrion's wine consumption and the number of women with him for n nights. Can you tell which nights were wonderful for Tyrion?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of nights. The following N lines describe a night. These lines contain two positive integers: how many glasses of wine he had (1≤gi≤100) and how many women were with him (1≤wi≤100).
+
+Output
+The first line should contain a single integer k – the number of wonderful nights Tyrion had. On the second line print k numbers in increasing order separated by spaces, which are the indices of the wonderful nights of Tyrion. The indexing starts with 1. (Notice that k might be 0, then leave the second line empty.)

@@ -1,0 +1,9 @@
+Khal Drogo speaks in his language, dothraki to Daenerys, which she doesn't understand. But Drogo noticed that she likes certain words that are increasing sequence of characters, he calls them increasing words. More precisely, if we look at pairs of consecutive characters of an increasing word the second character of the pair is behind the first one in the English alphabet. For example, the word "afis" is increasing, since a < f, f < i, and i < s, but "ahesh" is not increasing, because h < e is not true.
+
+Khal Drogo has a list with n words. Can you determine which of them are increasing words (that Daenerys likes)?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of words. Then n lines follow, each of which contains a word of length at most 100. All words only contain lowercase letters of the English alphabet (a...z).
+
+Output
+The first line should contain a single integer k - the number of increasing words. Then print the k increasing words on separate lines. The words should be in the same order as they appear in the input. (Notice that k might be 0, then you don't need to print more lines.

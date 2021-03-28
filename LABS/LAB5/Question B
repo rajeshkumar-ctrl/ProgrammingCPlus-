@@ -1,0 +1,9 @@
+Arya Stark is putting names on her list. Names of people whose eyes she will shut forever. The people who hurt her family, the Starks. She keeps track of how many crimes each person has committed against the Starks. If someone has at least 3 crimes against the Starks, Arya puts him on the list. Can you give the names of people on Arya's list?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of persons. Then n lines follow, each of which contains a name of a person and the number of his crimes (0≤ci≤100). For simplicity, the names don't contain spaces.
+
+Output
+The first line should contain a single integer k – how many names are on Arya's list. Then print k names on separate lines, the names of the people, who have at least 3 crimes. The names should be in the same order as they appear in the input. (Notice that k might be 0, then you don't need to print more lines.)
+
+Example
