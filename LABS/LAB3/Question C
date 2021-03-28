@@ -1,0 +1,7 @@
+Penny likes to drink a glass of wine now and then. Or two glasses, or more... Well, she can't remember the number of glasses when she drinks more than 10 glasses of wine. Given the number of glasses she drank on previous occasions, can you tell what is the maximum number of glasses that she remembers?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of occasions. The second line contains n integers w1,w2,…,wn (0≤di≤50) – the number of glasses of wine Penny had on each occasion.
+
+Output
+Your program should print a single number, which is the maximum number of glasses that Penny can remember. (This number should be between 0 and 10.) Print -1, if Penny can't remember anything (because she always drank too much).

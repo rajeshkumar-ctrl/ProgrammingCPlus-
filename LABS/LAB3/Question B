@@ -1,0 +1,7 @@
+Sheldon doesn't understand sarcasm every time, he is proud of himself when he does. For each day, he counts how many occasions he guesses it correctly and how many times wrong. His score of the day is the number of correct guesses minus the number of wrong guesses. For example, if he gets sarcasm correctly 7 times and wrongly 4 times, then his score is 3, since 7 - 4 = 3. He wants to know what was his minimal score over the last couple of days.
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of days. Each of the following n lines contains two integers ci,wi (0≤ci,wi≤100) – the number of correct and wrong guesses of Sheldon, for each day.
+
+Output
+Your program should print a single number, which is the minimal score of Sheldon for the last n days. This number can be negative.

@@ -1,0 +1,7 @@
+Raj can't talk to girls. Still, sometimes he has no better option than trying. In such an emergency situation he wants to say the shortest word that comes to his mind. (Unfortunately most often he is unable to make any sound). You are given the words that Raj has in mind. Can you tell which one he should try saying?
+
+Input
+The first line of the input contains n (1≤n≤100) – the number of words. Each of the following n lines contains a word (a character sequence without spaces, of length between 1 and 20).
+
+Output
+Your program should print a single number, the index of the shortest word. The indexing starts from 1. If there are multiple words with the smallest length, then print the first of them.
